@@ -1,27 +1,79 @@
 {
   "version": "2.0",
-  "dataset_id": "on006545",
-  "source": "openneuro",
-  "source_id": "ds006545",
+  "pipeline_stage": "enriched",
   "title": "Reliability-Dubois2024",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Kernel": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006545.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1038/s41598-024-68555-9",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006545",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006545",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "nirs"
   ],
-  "datatypes": [
-    "nirs"
-  ]
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "50.1 GB (99 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset contains time-domain functional near-infrared spectroscopy (fNIRS) measurements collected to assess the reliability of brain metrics derived from a commercial fNIRS system. The study evaluates the reproducibility and consistency of hemodynamic measurements across multiple sessions, providing empirical evidence for the reliability of fNIRS-based neuroimaging metrics in clinical and research applications.",
+  "methods_description": "Data were acquired using a Time-Domain Functional Near-Infrared Spectroscopy System. The dataset is organized according to BIDS standards (version 1.6.0) and includes raw fNIRS measurements.",
+  "keywords": [
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "functional near-infrared spectroscopy"
+    },
+    {
+      "term": "reliability"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "hemodynamics"
+    },
+    {
+      "term": "reproducibility"
+    },
+    {
+      "term": "time-domain"
+    },
+    {
+      "term": "test-retest"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "9cf3ee5f4aaf4d7019c37c85e35c2658f0a332169b1dbf692a6e125faf948aaa"
 }
