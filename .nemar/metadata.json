@@ -1,12 +1,31 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Reliability-Dubois2024",
+  "description": "Time-domain functional near-infrared spectroscopy (TD-fNIRS) recordings collected with the Kernel system to assess the reliability of brain metrics derived from this device. The dataset accompanies a Scientific Reports study evaluating the test-retest reliability of TD-fNIRS measures. It is mirrored on NEMAR from OpenNeuro (ds006545).",
+  "methods_description": "Data were acquired using a Time-Domain Functional Near-Infrared Spectroscopy System. The dataset is organized according to BIDS standards (version 1.6.0) and includes raw fNIRS measurements.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Kernel": {}
   },
+  "keywords": [
+    {
+      "term": "functional near-infrared spectroscopy"
+    },
+    {
+      "term": "time-domain fNIRS"
+    },
+    {
+      "term": "test-retest reliability"
+    },
+    {
+      "term": "Kernel Flow"
+    },
+    {
+      "term": "brain metrics"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006545.v1.0.0",
@@ -16,7 +35,7 @@
     {
       "identifier": "10.1038/s41598-024-68555-9",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on006545",
@@ -24,18 +43,18 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006545",
+      "identifier": "https://nemar.org/dataset/on006545",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "fNIRS Dataset",
   "modalities": [
     "nirs"
   ],
-  "resource_type_specific": "fNIRS Dataset",
   "sizes": [
-    "50.1 GB (99 files)"
+    "46.66 GB (99 files)"
   ],
   "formats": [
     ".json",
@@ -43,37 +62,6 @@
     ".snirf",
     ".tsv",
     ".yml"
-  ],
-  "description": "This dataset contains time-domain functional near-infrared spectroscopy (fNIRS) measurements collected to assess the reliability of brain metrics derived from a commercial fNIRS system. The study evaluates the reproducibility and consistency of hemodynamic measurements across multiple sessions, providing empirical evidence for the reliability of fNIRS-based neuroimaging metrics in clinical and research applications.",
-  "methods_description": "Data were acquired using a Time-Domain Functional Near-Infrared Spectroscopy System. The dataset is organized according to BIDS standards (version 1.6.0) and includes raw fNIRS measurements.",
-  "keywords": [
-    {
-      "term": "fNIRS"
-    },
-    {
-      "term": "functional near-infrared spectroscopy"
-    },
-    {
-      "term": "reliability"
-    },
-    {
-      "term": "brain imaging"
-    },
-    {
-      "term": "hemodynamics"
-    },
-    {
-      "term": "reproducibility"
-    },
-    {
-      "term": "time-domain"
-    },
-    {
-      "term": "test-retest"
-    },
-    {
-      "term": "BIDS"
-    }
   ],
   "source_hash": "9cf3ee5f4aaf4d7019c37c85e35c2658f0a332169b1dbf692a6e125faf948aaa"
 }
