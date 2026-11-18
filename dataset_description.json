@@ -1,6 +1,6 @@
 {
   "Name": "Reliability-Dubois2024",
-  "BIDSVersion": "1.6.0",
+  "BIDSVersion": "1.8.0",
   "DatasetType": "raw",
   "License": "CC0",
   "Authors": [
@@ -23,5 +23,5 @@
       "DOI": "doi:10.18112/openneuro.ds006545.v1.0.0"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }

@@ -1,2 +1,7 @@
+1.0.1 2026-11-18
+  - 98 sub-*/ses-*/nirs/*_channels.tsv: channel names written as MNE-Python derives them from the SNIRF file ("M000S00-M000D00-690.0-sum" -> "S1_D1 690 moment0"; sum, mean, variance -> moment0, moment1, moment2); row order and the other columns, including the source and detector labels, unchanged
+  - dataset_description.json: BIDSVersion 1.6.0 -> 1.8.0 (the nirs datatype exists in BIDS from version 1.8.0)
+  - sourcedata/: the published versions of the 98 tables whose values change in this version, byte-identical at the same relative path
+  - dataset_description.json: Version 1.0.0 -> 1.0.1
 1.0.0 2025-08-12
   - initial commit
